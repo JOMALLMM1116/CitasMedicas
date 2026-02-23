@@ -18,6 +18,7 @@ Rol: Medico
 Acceso: Login (Usuarrio + contrasenia)
 Descripcion: Consultar Agenda, gestioar citas propias y registrar algunas observaciones.
 
+<!--Este es el cambio del segundo Commit-->
 ## Estructura del Proyecto
 
 medicitas/
@@ -54,4 +55,26 @@ medicitas/
 - Confirmar cita
 
 3. **Confirmacion** — Mensaje de exito
+<!--Este es el cambio del tercer Commit encuanto a la Documentacion-->
+### Dashboard Secretaria
+- Citas del dia (con estadisticas)
+- Registrar paciente
+- Gestionar citas (con filtros)
+- Buscar paciente (con historial)
+- Gestionar medicos y horarios
+- Gestionar especialidades (escalabilidad)
 
+### Dashboard Medico
+- Mis citas del dia (marcar estado, agregar notas)
+- Agenda semanal (vista calendario)
+- Historial de citas (con filtros)
+- Mi perfil y horarios (solicitar bloqueos)
+
+## 🛠️ Tecnologias
+
+- **HTML5** — Estructura semantica
+- **CSS3** — Estilos responsivos, variables CSS, animaciones
+- **JavaScript** — Interactividad y navegacion
+- **Google Fonts** — DM Sans + Playfair Display
+
+## 🚀 Despliegue
