@@ -43,7 +43,9 @@ function searchPatient() {
     // Simular paciente encontrado — guardar en sessionStorage y redirigir
     errorEl.classList.add('hidden');
     sessionStorage.setItem('patientName', name);
-    window.location.href = 'pages/pacienteCita.html';
+    window.location.href = window.location.pathname.includes('/pages/') 
+    ? 'pacienteCita.html' 
+    : 'pages/pacienteCita.html';
 }
 
 // ===== PATIENT REGISTER =====
@@ -73,7 +75,9 @@ function registerPatient() {
 
     setTimeout(() => {
         sessionStorage.setItem('patientName', name);
-        window.location.href = 'pages/pacienteCita.html';
+    window.location.href = window.location.pathname.includes('/pages/') 
+    ? 'pacienteCita.html' 
+    : 'pages/pacienteCita.html';
     }, 1500);
 }
 
